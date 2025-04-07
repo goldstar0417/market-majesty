@@ -1,0 +1,12 @@
+CanvasModulate
+ColorRect
+GPUParticles2D
+Label
+CanvasLayer
+Sprite2D
+NavigationRegion2D
+NavigationAgent2D
+TileMap
+Camera2D
+CharacterBody2D
+Control

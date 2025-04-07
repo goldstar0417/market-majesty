@@ -1,0 +1,29 @@
+[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://cdqwqnhu3t3wq"]
+
+[ext_resource type="Texture2D" uid="uid://smapj0p3la1o" path="res://tiles/TileBlack.webp" id="1_ej02t"]
+[ext_resource type="Texture2D" uid="uid://be6b8pfm8dtfk" path="res://tiles/TileNormal.webp" id="2_14fb3"]
+[ext_resource type="Texture2D" uid="uid://bsushi5o4ynoo" path="res://tiles/TileWater.webp" id="3_14fb3"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p0366"]
+texture = ExtResource("1_ej02t")
+texture_region_size = Vector2i(164, 164)
+0:0/next_alternative_id = 4
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hobn4"]
+texture = ExtResource("2_14fb3")
+texture_region_size = Vector2i(164, 164)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mjrc7"]
+texture = ExtResource("3_14fb3")
+texture_region_size = Vector2i(164, 164)
+0:0/0 = 0
+
+[resource]
+tile_shape = 3
+tile_offset_axis = 1
+tile_size = Vector2i(154, 132)
+sources/29 = SubResource("TileSetAtlasSource_p0366")
+sources/31 = SubResource("TileSetAtlasSource_hobn4")
+sources/32 = SubResource("TileSetAtlasSource_mjrc7")
